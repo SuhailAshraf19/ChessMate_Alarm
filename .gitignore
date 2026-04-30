@@ -43,6 +43,10 @@ android/*/build/
 *.ap_
 *.dex
 *.aar
+*.keystore
+*.jks
+chessalarm.keystore
+*.keystore.*
 
 # Kivy
 .kivy/
