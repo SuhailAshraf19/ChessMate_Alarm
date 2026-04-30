@@ -1,0 +1,15 @@
+# ChessMate Alarm — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core UI framework
+kivy>=2.3.1
+
+# Optional but highly recommended:
+# python-chess enables FEN reconstruction from Lichess game PGN.
+# Without it, puzzles that rely on PGN replay for FEN detection
+# will be skipped (bundled puzzles always work fine).
+chess>=1.11.2
+
+# For Android packaging (optional — only needed if building APK)
+buildozer>=1.5.0
+cython>=3.0.0
